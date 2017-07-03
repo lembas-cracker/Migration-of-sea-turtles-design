@@ -1,0 +1,73 @@
+html, body {
+    min-width: 1150px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+ .intro{
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+}
+.intro-background {
+   position: absolute;
+   background: url(ws_Underwater_Shot_2560x1600.jpg) no-repeat;
+   background-size: cover;
+   width: 100%;
+}
+.logo h1 {
+  font-family: 'Plak Black Extra Condensed';
+  text-transform: uppercase;
+  color: white;
+  font-weight: normal;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  line-height: 113px;
+  font-size: 120px;
+  margin: 250px;
+  margin-bottom: 0;
+  display: block;
+  text-align: center;
+}
+.logo h5 {
+  font-family: 'Plak Black Extra Condensed';
+  text-transform: uppercase;
+  color: white;
+  font-weight: normal;
+  letter-spacing: 3px;
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+}
+.intro img {
+  opacity: 1;
+  position: absolute;
+  z-index: 100;
+  left: 50%;
+  margin-left: -61px;
+  bottom: 120px;
+}
+.menu {
+  position: fixed;
+  cursor: pointer;
+  font-size: 23px;
+  display: block;
+  left: 95px;
+  top: 65px;
+  height: 30px;
+  z-index: 100;
+  color: #fff;
+  opacity: 1;
+  padding-top: 5px;
+}
+.menu span {
+  background: #fff;
+  display: block;
+  width: 30px;
+  height: 3px;
+}
+.menu .top, .menu .meat {
+  margin-bottom: 4px;
+}
+
