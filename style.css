@@ -4,11 +4,13 @@ html, body {
     padding: 0px;
     margin: 0px;
 }
+
  .intro{
    position: relative;
    overflow: hidden;
    width: 100%;
 }
+
 .intro-background {
    position: absolute;
    background: url(ws_Underwater_Shot_2560x1600.jpg) no-repeat;
@@ -95,10 +97,11 @@ html, body {
 .first {
     position: absolute;
     top: 180%;
-    height: 830px;
+    height: 1220px;
     width: 1380px;
-    color: #fff;
     background-color: black;
+    background-image: url(background-stars.png);
+    background-position: right;
 }
 .first .aquatilis {
     text-align: center;
@@ -110,10 +113,102 @@ html, body {
   text-transform: uppercase;
   font-weight: normal;
   margin-bottom: 30px;
-  line-height: 113px;
+  line-height: 100px;
   font-size: 70px;
-  margin-top: 40px;
+  margin-top: 100px;
   color: white;
   letter-spacing: -4px;
   text-align: center;
 }
+.shadow p {
+  text-align: center;
+  font-family: "proxima-nova";
+  position: relative;
+  line-height: 25px;
+  max-width: 655px;
+  font-size: 20px;
+  color: #97b4ca;
+  margin: auto;
+  z-index: 100;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  font-weight: 300;
+}
+.chapter1 h1, .chapter2 h1 {
+  display: block;
+  font-family: 'Plak Black Extra Condensed';
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  font-size: 70px;
+  text-indent: 5px;
+  margin-left: 190px;
+  margin-top: 330px;
+  color: white;
+}
+.chapter1 p {
+  text-align: left;
+  font-family: "proxima-nova";
+  position: relative;
+  line-height: 25px;
+  max-width: 655px;
+  font-size: 20px;
+  color: #97b4ca;
+  margin: auto;
+  z-index: 100;
+  margin-top: 40px;
+  margin-left: 190px;
+  font-weight: 300;
+}
+ .first img {
+  float: right;
+  margin-top: 180px;
+  opacity: 0.8;
+}
+.second {
+  overflow: visible !important;
+  position: absolute;
+  height: 920px;
+  width: 1380px;
+  top: 350%;
+  background-color: black;
+  background-image: url(background-stars.png);
+  background-position: center;
+}
+.second .chapter2 {
+    padding-top: 0;
+    width: 1370px;
+    height: 500px;
+}
+.wrapper h1 {
+  display: block;
+  font-family: 'Plak Black Extra Condensed';
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: -2px;
+  margin-top: 50px;
+  margin-left: 8px;
+  font-size: 70px;
+  text-indent: 10px;
+  text-align: center;
+  color: white;
+}
+.wrapper p {
+  text-align: center;
+  font-family: "proxima-nova";
+  position: relative;
+  line-height: 25px;
+  max-width: 655px;
+  font-size: 20px;
+  margin-left: 350px;
+  color: white;
+  z-index: 100;
+  font-weight: 300;
+}
+div.chapter2.skrollable.skrollable-between {
+  background: url(324831858430_54030590c2_b.png) no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
+
