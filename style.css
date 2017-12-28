@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Anton Regular';
-  src: url('Anton-Regular.ttf')  format('truetype');
+  font-family: 'Oswald s-b';
+  src: url('Oswald-SemiBold.ttf')  format('truetype');
 }
 
 html, body {
@@ -8,12 +8,12 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
+/*Landing page*/
  .video-landing {
   position: relative;
   z-index: -100;
   overflow: hidden;
-  height: 150vh;
+  height: 120vh;
 }
 
 video {
@@ -31,7 +31,7 @@ video {
   height: 90vh;
 }
 .logo h5 {
-  font-family: 'Anton Regular';
+  font-family: 'Oswald s-b';
   text-transform: uppercase;
   color: #BFBFBF;
   font-weight: normal;
@@ -72,3 +72,14 @@ video {
 .menu:hover .bottom {
   transform: translateY(4px);
 }
+
+/*Section-1*/
+
+.section-1 {
+  background-color: black;
+  height: 100vh;
+  background-image: url(background-stars.png);
+}
+
+
+
