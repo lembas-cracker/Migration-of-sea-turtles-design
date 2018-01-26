@@ -15,16 +15,14 @@ html, body {
 /*Landing page*/
 .landing-wrapper {
   background-color: black;
-  height: 115vh;
+  min-height: 100vh;
   min-width: 100%;
 }
 video {
   position: absolute;
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
   bottom: 0;
-  right: 0;
-  top: 0;
   z-index: 100;
   opacity: 0.2;
   display: block;
@@ -34,15 +32,16 @@ video {
   position: relative;
   display: block;
   background-color: black;
-  height: 15vh;
-  z-index: -100;
+  height: 8vh;
+  z-index: 120;
 }
-.wrapper-fluid {
-  height
+.logo-row {
+  width: 100%;
 }
 
 .logo {
-
+  position: absolute;
+  z-index: 500;
 }
 .logo h5 {
   font-family: "Oswald s-b";
@@ -70,7 +69,7 @@ video {
   opacity: 1;
   padding-top: 5px;
 }
-@media (max-width: 576px){
+@media (max-width: 1470px){
   .menu{
     top: 10px;
     left: 15px;
@@ -94,7 +93,7 @@ video {
 }
 .top-drawer-items {
   height: 300px;
-  width: 100vw;
+
   z-index: 1002;
   padding: 35px;
 }
@@ -437,7 +436,22 @@ video {
   width: 100vw;
   text-align: center;
   transition: top 1s ease;
+  overflow: hidden;
 }
+@media (max-width: 576px){
+  #drawer-3 {
+    overflow: auto;
+  }
+  .divider-col {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 1226px){
+  #drawer-3 {
+
+  }
+}
+
 #drawer-3.drawer-closed {
   top: -400px;
   right: 0;
