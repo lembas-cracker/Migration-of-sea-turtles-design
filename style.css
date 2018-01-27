@@ -13,19 +13,19 @@ html, body {
    padding: 0;
 }
 /*Landing page*/
+
 .landing-wrapper {
   background-color: black;
-  min-height: 100vh;
-  min-width: 100%;
+  max-width: 100vw;
+  max-height: 100vh;
+  padding: 0;
 }
 video {
-  position: absolute;
-  min-width: 100%;
-  min-height: 100vh;
-  bottom: 0;
+  position: relative;
+  height: 100%;
+  width: 100%;
   z-index: 100;
   opacity: 0.2;
-  display: block;
 }
 
 .shadow {
@@ -33,15 +33,16 @@ video {
   display: block;
   background-color: black;
   height: 8vh;
-  z-index: 120;
+  z-index: 150;
 }
 .logo-row {
-  width: 100%;
+ position: absolute;
+ z-index: 500;
+ width: 100%;
 }
 
 .logo {
-  position: absolute;
-  z-index: 500;
+
 }
 .logo h5 {
   font-family: "Oswald s-b";
@@ -51,8 +52,8 @@ video {
   letter-spacing: 3px;
   font-size: 1.1em;
   margin-top: 20px;
-  text-align: center;
   position: relative;
+  text-align: center;
   opacity: 0.8;
 }
 
@@ -184,7 +185,8 @@ video {
 }
 
 .welcome .row.justify-content-center{
-  margin-top: 170px;
+  position: relative;
+  margin-top: 150px;
 }
 .welcome h1 {
   font-family: "Oswald b";
