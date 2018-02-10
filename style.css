@@ -92,9 +92,9 @@ video {
 .menu:hover .bottom {
   transform: translateY(4px);
 }
+
 .top-drawer-items {
   height: 300px;
-
   z-index: 1002;
   padding: 35px;
 }
@@ -433,9 +433,9 @@ video {
   right: -600px;
 }
 
-#drawer-3 {
+ #drawer-3 {
   height: 300px;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   transition: top 1s ease;
   overflow: hidden;
@@ -448,14 +448,9 @@ video {
     margin-bottom: 30px;
   }
 }
-@media (max-width: 1226px){
-  #drawer-3 {
 
-  }
-}
-
-#drawer-3.drawer-closed {
-  top: -400px;
+.drawer-closed#drawer-3 {
+  top: -300px;
   right: 0;
 }
 
@@ -463,7 +458,7 @@ video {
  pointer-events: none;
  padding-left: 15px;
 }
-.opacity-drawer {
+.opacity-drawer, .opacity-drawer-top {
   position: fixed;
   top: 0;
   left: 0;
