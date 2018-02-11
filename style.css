@@ -1,8 +1,12 @@
 @font-face {
   font-family: 'Oswald s-b';
   src: url('Font/Oswald-SemiBold.ttf')  format('truetype');
+}
+@font-face {
   font-family: 'Oswald b';
   src: url('Font/Oswald-Bold.ttf') format('truetype');
+}
+@font-face {
   font-family: 'Oswald l';
   src: url('Font/Oswald-Light.ttf')  format('truetype');
 }
@@ -70,12 +74,7 @@ video {
   opacity: 1;
   padding-top: 5px;
 }
-@media (max-width: 1470px){
-  .menu{
-    top: 10px;
-    left: 15px;
-  }
-}
+
 .menu span {
   background: #fff;
   display: block;
@@ -194,6 +193,7 @@ video {
   font-size: 7.5em;
   text-align: center;
   letter-spacing: -2.5px;
+  padding: 15px;
 }
 .welcome p {
   padding-top: 30px;
@@ -203,6 +203,23 @@ video {
   font-size: 1.26em;
   letter-spacing: 0.8px;
   line-height: 30px;
+}
+@media (max-device-width: 800px){
+  .welcome p {
+    font-size: 2.5em;
+    padding: 10px;
+    line-height: 1.5em;
+  }
+  .chapter1 p, .chapter2 p, .chapter3 p {
+    font-size: ;
+  }
+  .turtle {
+    width: 387px;
+    height: 460px;
+  }
+  .button {
+    font-size: 1.7em;
+  }
 }
 /*Daily Activities*/
 
@@ -224,7 +241,6 @@ video {
   text-align: left;
   font-family: "Oswald l";
   line-height: 27px;
-  font-size: 1.26em;
   letter-spacing: 1.2px;
   font-size: 1.28em;
   color: rgb(151, 180, 202);
@@ -420,10 +436,11 @@ video {
 .drawer {
   position: fixed;
   overflow: auto;
-  height: 100vh;
+  height: 100%;
   width: 600px;
   background-color: black;
   top: 0;
+  bottom: 0;
   right: 0;
   z-index: 1000;
   transition: right 1s ease;
@@ -440,14 +457,6 @@ video {
   transition: top 1s ease;
   overflow: hidden;
 }
-@media (max-width: 576px){
-  #drawer-3 {
-    overflow: auto;
-  }
-  .divider-col {
-    margin-bottom: 30px;
-  }
-}
 
 .drawer-closed#drawer-3 {
   top: -300px;
@@ -458,11 +467,11 @@ video {
  pointer-events: none;
  padding-left: 15px;
 }
-.opacity-drawer, .opacity-drawer-top {
+.opacity-drawer {
   position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   z-index: 900;
   background-color: rgba(0,0,0, 0.6);
@@ -520,4 +529,21 @@ video {
 .glow1 {
   top: 250%;
   height: 100%;
+}
+
+
+@media (max-width: 576px){
+  #drawer-3 {
+    overflow: auto;
+  }
+  .divider-col {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1470px){
+  .menu{
+    top: 10px;
+    left: 15px;
+  }
 }
