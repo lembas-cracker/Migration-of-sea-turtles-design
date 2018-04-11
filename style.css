@@ -540,16 +540,12 @@ video {
     padding: 10px;
     line-height: 1.5em;
   }
-  .chapter1 p {
+  .chapter1 p, .chapter3 p {
     font-size: 2.1em;
     line-height: 1.5em;
   }
   .chapter2 p {
     font-size: 2em;
-    line-height: 1.35em;
-  }
-  .chapter3 p {
-    font-size: 2.1em;
     line-height: 1.5em;
   }
   .circle-chart {
@@ -557,7 +553,7 @@ video {
   }
   .turtle {
     height: 550px;
-    margin-top: 300px;
+    margin-top: 250px;
   }
   .button {
     font-size: 1.2em;
@@ -570,12 +566,13 @@ video {
   }
   .container-images-2 {
     padding: 10px;
+
   }
   .container-images {
     margin-bottom: 15px;
   }
   .section-3-row {
-    height: 87vh;
+    height: 75vh;
   }
   .container.inner-wrap {
     height: 100%;
@@ -584,5 +581,8 @@ video {
   #drawer-2 .chapter2 {
     padding: 0;
     width: auto;
+  }
+  .chapter1 {
+    width: 35vw;
   }
 }
