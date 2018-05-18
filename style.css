@@ -172,7 +172,7 @@ video {
 .section-1 {
   margin-top: 0;
   background-color: black;
-  background-image: url(background-stars.png);
+  background-image: url(Assets/background-stars.png);
 }
 
 #kurosio {
@@ -293,11 +293,11 @@ video {
 
 .section-2 {
   background-color: black;
-  background-image: url(background-stars.png);
+  background-image: url(Assets/background-stars.png);
 }
 .section-2 .jelly {
   height: 70%;
-  background-image: url(long-jellyfish.jpg);
+  background-image: url(Assets/long-jellyfish.jpg);
 
 }
 .section-2 .container-fluid .row.justify-content-center{
@@ -323,7 +323,7 @@ video {
 
 .section-3 {
   background-color: black;
-  background-image: url(background-stars.png);
+  background-image: url(Assets/background-stars.png);
   padding-top: 100px;
 }
 .section-3 .container{
@@ -388,17 +388,11 @@ video {
 .ridley {
   padding-top: 80px;
 }
-.flatback {
+.flatback, .loggerhead, .kemp {
   padding-top: 30px;
 }
 .hawksbill {
   padding-top: 18px;
-}
-.loggerhead {
-  padding-top: 30px;
-}
-.kemp {
-  padding-top: 35px;
 }
 
 .title {
@@ -409,7 +403,7 @@ video {
 /*Section 4*/
 .section-4 {
   background-color: black;
-  background-image: url(background-stars.png);
+  background-image: url(Assets/background-stars.png);
 }
 .jump-on {
   opacity: 0.5;
