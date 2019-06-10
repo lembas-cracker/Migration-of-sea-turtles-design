@@ -28,17 +28,9 @@ video {
   position: relative;
   height: 100%;
   width: 100%;
-  z-index: 100;
   opacity: 0.2;
 }
 
-.shadow {
-  position: relative;
-  display: block;
-  background-color: black;
-  height: 8vh;
-  z-index: 150;
-}
 .logo-row {
  position: absolute;
  z-index: 500;
@@ -173,6 +165,7 @@ video {
   margin-top: 0;
   background-color: black;
   background-image: url(Assets/background-stars.png);
+  background-attachment: fixed;
 }
 
 #kurosio {
@@ -184,13 +177,12 @@ video {
 }
 
 .welcome .row.justify-content-center{
-  position: relative;
   margin-top: 150px;
 }
 .welcome h1 {
   font-family: "Oswald b";
   color: white;
-  font-size: 7.5em;
+  font-size: 7em;
   text-align: center;
   letter-spacing: -2.5px;
   padding: 15px;
